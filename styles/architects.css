@@ -178,6 +178,15 @@ main> section{
     filter: grayscale(100%);
 }
 
+/* footer section */
+footer{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px 400px;
+}
+
 /* responsive media query */
 
 /* small size device */
@@ -210,6 +219,9 @@ main> section{
     }
     #experience-badge{
         margin-top: 20px;
+        margin-left: 20px;
+    }
+    footer{
         margin-left: 20px;
     }
     
