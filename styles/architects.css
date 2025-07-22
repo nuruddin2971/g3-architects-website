@@ -182,7 +182,7 @@ main> section{
 footer{
     background-color: #FFF4E7;
     max-width: 1440px;
-    margin: 100px auto;
+    margin: 100px 100px;
     text-align: center;
     padding: 20px 400px;
 }
@@ -222,7 +222,8 @@ footer{
         margin-left: 20px;
     }
     footer{
-        margin-left: 20px;
+        padding: 0;
+        margin: 0 auto;
     }
     
 }
@@ -240,5 +241,9 @@ footer{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    footer{
+        padding: 0;
+        margin: 0 100px;
     }
 }
