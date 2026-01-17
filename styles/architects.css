@@ -233,6 +233,9 @@ footer {
     margin-top: 20px;
     margin-left: 20px;
   }
+  footer{
+    text-align: center;
+  }
 }
 
 /* medium size device */
