@@ -148,20 +148,25 @@ main > section {
 }
 
 /* some facts related styles */
+.facts{
+  /* border: 2px solid red; */
+}
 .fact-description {
   max-width: 540px;
   margin-bottom: 100px;
 }
 .facts-container {
   display: grid;
+  gap: 100px;
   /* justify-items: center; */
   /* border: 2px solid red; */
   /* gap: 150px; */
   grid-template-columns: repeat(4, 1fr);
+  /* background-color: green; */
 }
 .fact-card {
   border: 1px solid #ff900e;
-  width: 240px;
+  width: auto;
   height: 240px;
   border-radius: 8px;
   text-align: center;
